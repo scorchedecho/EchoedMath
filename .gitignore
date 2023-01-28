@@ -1,0 +1,16 @@
+config.json
+config_old.json
+
+.idea/*
+.idea/*.xml
+discord_assets
+
+*.iml
+
+target/*
+/gumroad.json
+src/main/resources/META-INF/MANIFEST.MF
+out/*
+.idea/discord.xml
+.idea/misc.xml
+.idea/vcs.xml

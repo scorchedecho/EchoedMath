@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.scorchedecho</groupId>
+  <artifactId>echoedmath</artifactId>
+  <version>1.0.0-S</version>
+
+  <properties>
+    <maven.compiler.source>16</maven.compiler.source>
+    <maven.compiler.target>16</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <!-- Project Information-->
+  <name>EchoedMath</name>
+  <description>Core functionality of scorchedE.C.H.O's Math projects</description>
+  <inceptionYear>2023</inceptionYear>
+
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+
+  <developers>
+
+    <developer>
+      <id>E.C.H.O</id>
+      <name>scorchedE.C.H.O</name>
+      <email>scorchedecho.vr@gmail.com</email>
+      <url>https://github.com/scorchedECHO</url>
+      <timezone>America/New_York</timezone>
+    </developer>
+
+  </developers>
+
+  <!-- maven-compiler-plugin -->
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <source>16</source>
+          <target>16</target>
+        </configuration>
+      </plugin>
+    </plugins>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
+  </build>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>EchoedMath</name>
+      <url>https://maven.pkg.github.com/scorchedecho/EchoedMath</url>
+    </repository>
+  </distributionManagement>
+</project>
